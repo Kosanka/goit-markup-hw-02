@@ -1,32 +1,68 @@
-/*цвет основного текста черный  #212121*/
-/*вторичный цвет текста серый  #757575*/
-/*акцент  голубой 2196F3*/
-/*цвет фона  темный 2F303A*/
-/*цвет фона  светлый розовый F5F4FA*/
-/*белый FFFFFF*/
-
-.body {
-  color: #212121;
+.root {
+  --primary-title-color: #212121;
+  --primary-text-color: #757575;
+  --second-title-color: #ffffff;
+  --accent-color: #2196f3;
 }
 
-.logo {
+body {
+  font-family: "roboto", sans-serif;
 }
-/*site-nav*/
-.site-nav .link {
-  color: #212121;
+.list {
+  list-style: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link {
+  text-decoration: none;
+}
+
+/*-----------header----------*/
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-color);
+}
+.menu-link:hover,
+.menu-link:focus {
   color: #2196f3;
 }
 
-/*hero*/
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+/*-------------hero-------------------*/
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36x;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
 }
 .hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
-  cursor: pointer;
 }
-/*section*/
+/*------------------advantage--------------------*/
+.advantage-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--accent-color);
+}
