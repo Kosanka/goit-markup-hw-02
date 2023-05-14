@@ -1,3 +1,164 @@
-.list {list-style: none;}
-.link {text-decoration: none;}
-button {cursor: pointer;}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/*header*/
+
+.menu-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.menu-link:hover, .menu-link:focus{
+    color: #404BBF
+}
+
+.contact-mail {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-tel {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contact-mail:active, .contact-tel:active{
+    color: #404BBF;
+}
+
+/*hero*/
+
+.hero-section {
+    background: #2E2F42
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.hero-btn {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    background: #4D5AE5;
+    color: #ffffff;
+    border:none;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+    background-color: #404BBF;
+}
+
+/*advantages*/
+
+.advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.advantages-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*product*/
+
+.product-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/*team*/
+
+.team-section {
+    background: #F4F4FD;
+}
+
+.team-main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-subtitle {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*portfolio*/
+
+.service-filter-btn {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #F4F4FD;;
+    color: #4D5AE5;
+    border: none;
+}
+
+.service-filter-btn:hover, .service-filter-btn:focus {
+    background: #404BBF;
+    color:#ffffff
+}
+
+.service-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.service-subtitle {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+/*footer*/
+.page-footer {
+    background-color: #2E2F42;
+}
+.footer-text{
+    line-height:1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
