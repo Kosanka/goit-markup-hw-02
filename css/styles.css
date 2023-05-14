@@ -1,3 +1,12 @@
+:root {
+    --accent-color:#404BBF;
+    --primary-background-color-light:#F4F4FD;
+    --secondary-background-color-dark:#2E2F42;
+    --primary-text-color-dark: #2E2F42;
+    --primary-text-color-light:#434455;
+    --primary-text-color-white:#ffffff;
+}
+
 .list {
     list-style: none;
 }
@@ -19,33 +28,33 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primary-text-color-dark);
 }
 .menu-link:hover, .menu-link:focus{
-    color: #404BBF
+    color: var(--accent-color);
 }
 
 .contact-mail {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color-light);
 }
 
 .contact-tel {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color-light);
 }
 .contact-mail:active, .contact-tel:active{
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
 /*hero*/
 
 .hero-section {
-    background: #2E2F42
+    background: var(--secondary-background-color-dark);
 }
 
 .hero-title {
@@ -53,19 +62,19 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--primary-text-color-white);
 }
 .hero-btn {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     background: #4D5AE5;
-    color: #ffffff;
+    color: var(--primary-text-color-white);
     border:none;
 }
 
 .hero-btn:hover, .hero-btn:focus {
-    background-color: #404BBF;
+    background-color: var(--accent-color);
 }
 
 /*advantages*/
@@ -75,12 +84,12 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primary-text-color-dark);
 }
 .advantages-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color-light);
 }
 
 /*product*/
@@ -96,7 +105,7 @@ body {
 /*team*/
 
 .team-section {
-    background: #F4F4FD;
+    background: var(--primary-background-color-light);
 }
 
 .team-main-title {
@@ -105,20 +114,20 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--primary-text-color-dark);
 }
 .team-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primary-text-color-dark);
 }
 
 .team-subtitle {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color-light);
 }
 
 /*portfolio*/
@@ -127,14 +136,14 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: #F4F4FD;;
+    background: var(--primary-background-color-light);
     color: #4D5AE5;
     border: none;
 }
 
 .service-filter-btn:hover, .service-filter-btn:focus {
-    background: #404BBF;
-    color:#ffffff
+    background: var(--accent-color);
+    color:var(--primary-text-color-white)
 }
 
 .service-title {
@@ -142,20 +151,20 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primary-text-color-dark);
 }
 
 .service-subtitle {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color-light);
 }
 
 
 
 /*footer*/
 .page-footer {
-    background-color: #2E2F42;
+    background-color: var(--secondary-background-color-dark);
 }
 .footer-text{
     line-height:1.5;
