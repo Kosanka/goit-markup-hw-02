@@ -20,27 +20,27 @@ button {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    color: #434455;
+    background-color: var(--primary-text-color-white)
+    
 }
 
 /*header*/
 .logo{
     color: #4D5AE5;
-    font-family: 'Raleway';
- 
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo-header{
     color: var(--primary-text-color-dark);
 }
 
-.logo-footer{
-    color: var(--primary-background-color-light);
-}
+
 
 .menu-link {
     font-weight: 500;
@@ -76,11 +76,13 @@ body {
 }
 
 .hero-title {
+    font-size: 16px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     color: var(--primary-text-color-white);
+    text-align: center;
 }
 .hero-btn {
     font-style: normal;
@@ -113,11 +115,13 @@ body {
 /*product*/
 
 .product-title {
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--primary-text-color-dark);
 }
 
 /*team*/
@@ -133,6 +137,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-text-color-dark);
+    text-align: center;
 }
 .team-title {
     font-weight: 500;
@@ -151,6 +156,8 @@ body {
 /*portfolio*/
 
 .service-filter-btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -181,6 +188,12 @@ body {
 
 
 /*footer*/
+
+.logo-footer {
+    color: var(--primary-background-color-light);
+    font-family: "Raleway", sans-serif,
+}
+
 .page-footer {
     background-color: var(--secondary-background-color-dark);
 }
