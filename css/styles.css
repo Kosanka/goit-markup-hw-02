@@ -40,7 +40,9 @@ body {
     color: var(--primary-text-color-dark);
 }
 
-
+.address {
+    font-style: normal
+}
 
 .menu-link {
     font-weight: 500;
@@ -52,20 +54,14 @@ body {
     color: var(--accent-color);
 }
 
-.contact-mail {
+.contact-item {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-light);
 }
 
-.contact-tel {
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color-light);
-}
-.contact-mail:active, .contact-tel:active{
+.contact-item:hover, .contact-item:focus{
     color: var(--accent-color);
 }
 
