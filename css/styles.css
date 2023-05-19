@@ -177,7 +177,9 @@ body {
     color:var(--primary-text-color-white)
 }
 
-
+.service-item{
+    
+}
 
 .service-title {
     font-weight: 500;
