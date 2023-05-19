@@ -85,9 +85,11 @@ body {
     text-align: center;
 }
 .hero-btn {
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     background: #4D5AE5;
     color: var(--primary-text-color-white);
     border:none;
@@ -127,7 +129,11 @@ body {
 /*team*/
 
 .team-section {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
+}
+
+.team-list {
+    background-color: #FFFFFF
 }
 
 .team-main-title {
