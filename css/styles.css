@@ -54,7 +54,7 @@ body {
     color: var(--accent-color);
 }
 
-.contact-items {
+.contact-item {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -178,7 +178,7 @@ body {
 }
 
 .service-item{
-    
+
 }
 
 .service-title {
