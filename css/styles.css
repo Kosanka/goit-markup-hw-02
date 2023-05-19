@@ -80,7 +80,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color-white);
     text-align: center;
 }
@@ -127,7 +127,7 @@ body {
 /*team*/
 
 .team-section {
-    background: var(--primary-background-color-light);
+    background-color: #FFFFFF;
 }
 
 .team-main-title {
@@ -154,6 +154,10 @@ body {
 }
 
 /*portfolio*/
+
+.service-filter-list {
+    list-style: none
+}
 
 .service-filter-btn {
     font-family: "Roboto", sans-serif;
